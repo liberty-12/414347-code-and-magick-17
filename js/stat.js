@@ -11,7 +11,7 @@ var TEXT_HEIGHT = 16;
 var BAR_WIDTH = 40;
 var BAR_HEIGHT = 150;
 
-var congratulation = ['Ура, вы победили!', 'Список результатов:'];
+var congratulations = ['Ура, вы победили!', 'Список результатов:'];
 
 var renderCloud = function (ctx, x, y, color) {
   ctx.fillStyle = color;
