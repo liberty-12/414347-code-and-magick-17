@@ -49,7 +49,6 @@ var renderBarChart = function (ctx, name, time) {
   });
 };
 
-
 var getMaxElement = function (arr) {
   return Math.max.apply(null, arr);
 };
@@ -67,6 +66,6 @@ window.renderStatistics = function (ctx, names, times) {
   renderCloud(ctx, CLOUD_X + GAP, CLOUD_Y + GAP, 'rgba(0, 0, 0, 0.7)');
   renderCloud(ctx, CLOUD_X, CLOUD_Y, '#fff');
 
-  showMessage(ctx, congratulation);
+  showMessage(ctx, congratulations);
   renderBarChart(ctx, names, times);
 };
